@@ -20,6 +20,10 @@ def mySqrt(x: int) -> int:
             return mid
     return j
 
+# approach 2: newton iteration
+# this is a fast way to fix function zero point
+
+
 if __name__ == '__main__':
 
     print(mySqrt(4))
