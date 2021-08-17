@@ -25,6 +25,6 @@ if __name__ == "__main__":
     print(digits)
 
 # python built-in function
-    num = int(''.join(list(map(str, digits)))) + 1
-    print(list(map(int, list(str(num)))))
+# num = int(''.join(list(map(str, digits)))) + 1
+# print(list(map(int, list(str(num)))))
 
