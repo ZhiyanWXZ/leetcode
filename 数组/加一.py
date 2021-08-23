@@ -21,9 +21,10 @@ def plusOne(digits: List[int]) -> List[int]:
 
 if __name__ == "__main__":
     digits = [9,9,9,9,9,9]
-    plusOne(digits)
+    # plusOne(digits)
     print(digits)
 
-
-
+# python built-in function
+# num = int(''.join(list(map(str, digits)))) + 1
+# print(list(map(int, list(str(num)))))
 
